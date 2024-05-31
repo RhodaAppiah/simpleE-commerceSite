@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="navigation-bar">
+        <div class="nav-left">
+            <img style="width:100px;height:100px; border-radius:50%;mix-blend-mode:multiply ;" class="logo" src="/images/logo.jpg">
+            <div class="list">
+                <ul>
+                    <li><a>Everything</a></li>
+                    <li><a>groceries</a></li>
+                    <li><a>Juice</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav-right">
+            <div class="list">
+                <ul>
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
+                    <li><a>£0.00</a></li>
+                </ul>
+                <img style="width: 25px;height: 25px;" class="shop" src="/images/grocery-store.png">
+                <img style="width: 25px;height: 25px;" class="register" src="/images/user.png">
+
+            </div>
+        </div>   
+    </div>  
+
+<div class="cart-display">
+        <div><img style="width: 500px;height:500px" src="/images/sanitizer-300x300.jpg"></div>
+        <div>
+            <div>Hand Sanitizer</div>
+            <div style="margin-top: 10px;" id="price-no"></div>
+            <div style="margin-top: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </div>
+            <div style="margin-top: 10px;"   class="cart-items">
+                <div id="button-update" style="width: 50px;height:50px;border:1px solid black;text-align: center;align-content: center;" id="box-w-price"></div>
+
+                    <div id="button-to-update"  class="button">
+                            <button class="buttn"  onclick="updateBox()" >
+                                <div class="btn-design">
+                                <div>SHOP NOW</div>
+                                <div><i class="fa-solid fa-arrow-right"></i></div>
+                                </div>
+                            </button>      
+                    </div>
+              
+            </div>
+
+            <div style="margin-top: 10px;"  >Category:Groceries</div>
+
+            <div style="margin-top: 10px;" class="tabs">
+                <div class="tabs-indicator">
+                    <li id="tab-1"><a>Description</a></li>
+                    <li id="tab-2"><a>Reviews</a></li>
+                </div>
+                <div id="first-tab"   class="tab-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</div>
+                <div id="second-tab"  class="tab-2">RHODA ipsum dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</div>
+                <div  style="border:1px solid black;width:100%;height:50px;margin-top: 20px;text-align: center;align-content: center;"  id="cart"></div>
+            </div>
+               
+        </div>
+  
+</div>
+<script src="/script.js"></script>
+</body>
+</html>

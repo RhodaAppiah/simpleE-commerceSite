@@ -1,0 +1,446 @@
+body{
+    padding:10px;
+    margin: 5px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 50;
+    background-color: #f8f8f8;
+}
+
+
+.btn,.nav-left ,.nav-right,.navigation-bar,.list,.product-show-1,.box,.second-middle,.cart-items{
+    display:flex;
+}
+
+.navigation-bar{
+    justify-content: space-between;
+}
+
+.nav-left{
+    align-items: center;
+    padding: 5px;
+}
+
+.nav-right{
+    align-items: center;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+ul li a{
+    padding:15px;
+}
+
+ a:hover{
+    color:lightgreen;
+    cursor:pointer;
+}
+
+.list img{
+    padding:15px;
+    align-self: center;
+}
+
+.product-show-1{
+    padding: 35px;
+    padding-top: 150px;
+    justify-content: space-between;
+  
+}
+
+.btn{
+    align-items: center;
+    padding-left:15px;
+    padding-right: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px ;
+    background-color: #6a9739;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.second-middle{
+    justify-content:space-around;
+    background-color: black;
+    padding: 30px;
+    
+}
+.box{
+   background-color: #1b1b1b;
+   padding: 10px;
+   color: white;
+ 
+   align-items: center;
+   border-radius: 5px;
+}
+
+#mid-section{
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    align-self: center;
+}
+
+.showcase-products{
+   
+    margin: auto;
+    width:90%
+
+
+}
+.showcase-products-1{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+#down-part{
+    text-align: center;
+}
+
+#showcase-products-2 img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#showcase-products-2{
+  
+  overflow: hidden;
+}
+#showcase-products-2 img{
+ transition: all;
+ cursor:pointer;
+}
+
+#down-part{
+    margin-top: 15px;
+}
+
+#down-part-down{
+    padding: 5px;
+    
+}
+
+#total{
+    display:flex;
+    justify-content: space-around;
+}
+
+.fa-regular{
+color: yellow;
+}
+
+.dashboard{
+    display:flex;
+    justify-content: space-between;
+}
+
+.middle-2{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    
+}
+
+.img-leaf{
+    align-content: center;
+}
+
+.basil-leaf{
+    align-self: center;
+}
+
+.card{
+    width: 360px;
+    height:400px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.text{
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+.buttn{
+    padding:20px;
+    padding-left: 25px;
+    padding-right:25px;
+    color: white;
+    background-color: #6a9739;
+    border-radius:5px;
+    border:none;
+}
+
+.button-1,.button{
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.btn-design{
+    display: flex;
+
+}
+
+.btn-design i{
+padding-left: 10px;
+}
+
+.middle-main{
+
+    margin: auto;
+    width: 80%;
+}
+
+.lemon-dried{
+    float: right;
+    width: 200px;
+    height: 180px;
+    
+    
+}
+
+.lemon-dried-2{
+    mix-blend-mode: multiply;
+    float: right;
+    width: 200px;
+    height: 180px;
+}
+.black-description{
+    background-color: black;
+    color: white;
+    display:flex;
+    align-items: center;
+    height: 130px;
+    padding: 10px;
+    margin-top: 100px;
+    text-align: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.middle-main-1{
+    background-color: #b88a8a;
+}
+
+.card-first{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 340px;
+    height: 330px;
+    position: absolute;
+    right:30px;
+   
+}
+
+.card-middle{
+    padding: 10px;
+    border-radius: 10px;
+    width: 340px;
+    height: 410px;
+    background-color: #dedede;
+    position: absolute;
+    top:0px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/images/pexels-kaip-594137.jpg);
+    background-size: cover;
+      
+}
+
+.cards-bottom{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+
+.card-last{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 340px;
+    height: 330px;
+    position: absolute;
+    left:30px;
+   
+}
+
+.cards-bottom-1{
+    margin:auto;
+    width: 83%;
+    padding-top: 50px;
+    position: relative;
+    height:450px;
+}
+
+.stars{
+    padding-top:50px ;
+    text-align: center;
+}
+
+ .fa-star{
+ color: yellow;
+}
+
+.cart-items{
+    align-items: center;
+    text-align: center;
+}
+
+.cart-display .button{
+
+    margin-top: 0px;
+}
+
+.tab-2,.tab-1{
+    border:1px solid black;
+   display: none;
+}
+
+#tab-2{
+  padding-left: 20px;  
+}
+
+.tabs-indicator{
+    display:flex;
+}
+
+.tabs-indicator li {
+    list-style-type: none;
+}
+
+.cart-display{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+footer {
+    height: 100vh;
+    font-family: sans-serif;
+    padding: 2rem 1rem;
+    font-size: 16px;
+}
+
+.footer_navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+
+}
+
+.links {
+    line-height: 50px;
+}
+
+.icons{
+    cursor: pointer;
+}
+
+.fa-youtube,.fa-instagram,.fa-whatsapp,.fa-github,.fa-twitter{
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    width: 500px;
+    margin-top: 100px;
+
+
+}
+
+.rowe {
+    margin: auto;
+    width: 30%;
+}
+
+p {
+    line-height: 30px;
+
+}
+
+input[type="text"] {
+
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+footer button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-left: 200px;
+
+}
+
+.ytb{
+    color:#d90222; 
+     background-color: white; 
+     border-radius: 12px; 
+     border:1px solid black;
+     border: none; 
+     outline:none; 
+}
+
+
+.ig{
+    border-radius: 12px ;
+    background-image:linear-gradient( 180deg, #8A3AB9,#BC2A8D,#CD486B,#E4405F,#BC2A8D,#E95950,#FBAD50, #FCC663,#FFFC00); 
+    color: white; 
+}
+.wat{
+     color: white;
+     background-color:#25d366;
+     border-radius: 12px;
+}
+
+.git{
+    background-color: black; 
+    color: white; 
+    border-radius: 12px;
+}
+
+.twit{
+    background-color:#08a0e9 ;
+    color: white; 
+    border-radius: 12px;
+}
+
+
+
+footer a{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+}
+
+footer p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
